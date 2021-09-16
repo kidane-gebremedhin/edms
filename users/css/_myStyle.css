@@ -1,0 +1,91 @@
+body{
+	background-color: #F7F9F9;
+}
+.header{
+  background: #2E8B57;
+}
+.bodyImage{
+     width:800px; 
+    height: 754px;
+    background-color: #F7F9F9;
+     overflow: hidden;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat; 
+}
+.textDiv{
+	color:#343434;
+	padding-bottom: 50px;
+	font-family: georgia;
+}
+.itemDiv{
+	padding-bottom: 50px;
+}
+.item-img{
+   width:100%; height: auto; border-radius: 0%; border: 2px solid orange;
+}
+.firstPrice{
+   text-align: center;
+   color:orange;
+}
+.secondPrice{
+   text-align: center;
+   color:gray;
+}
+.itemName{
+   text-align: center;
+   color:black;
+}
+
+#myModal{
+	color:#343434;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 100px;
+}
+
+.nav_path{
+  background: ;
+  color:gold;
+  height: 20px;
+  font-weight: bold;
+  padding-left: 0%;
+}
+
+.layer2Row{
+  background: #2F4F4F;
+  color:gold;
+  height: 20px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+.searchItems_Tf{
+  background: #F5DEB3; width: 380px; border: 1px solid #2F4F4F; border-bottom: 6px solid #2F4F4F; border-radius: 20%;
+}
+
+a{
+  text-decoration-style: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.success{
+  color: #00FA9A;
+}
+.primary{
+  color: #1E90FF;
+}
+.warnning{
+  color: gold;
+}
+
+.price-scale-list{
+  color:#2E8B57;
+}
+
+.item-detail-img{
+  width: 80%;
+  height: 220px;
+  padding: 15%;
+  border: 1px solid gray;
+}
