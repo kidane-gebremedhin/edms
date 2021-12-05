@@ -56,7 +56,7 @@ class FrontMiddleware
                 return redirect()->route('403');
             }
 
-            Session::put('selectedLang', \Cookie::get('selectedLang')!=null && \Cookie::get('selectedLang')!=''? \Cookie::get('selectedLang'):'tig');
+            Session::put('selectedLang', \Cookie::get('selectedLang')!=null && \Cookie::get('selectedLang')!=''? \Cookie::get('selectedLang'):'eng');
 
         return $next($request);
 

@@ -1,0 +1,18 @@
+[2021-09-27 09:02:45] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Allowed memory size of 524288000 bytes exhausted (tried to allocate 297230336 bytes) in C:\wamp64\www\edms\EDMS-Core\vendor\symfony\http-foundation\Response.php:361
+Stack trace:
+#0 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(137): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 C:\wamp64\www\edms\EDMS-Core\vendor\symfony\http-foundation\Response.php(374): Illuminate\Http\Response->sendContent()
+#4 C:\wamp64\www\edms\index.php(55): Illuminate\Http\Response->send()
+#5 C:\wamp64\www\edms\index.php(0): {main}()
+#6 {main}  
+[2021-09-27 09:05:02] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Allowed memory size of 524288000 bytes exhausted (tried to allocate 297230336 bytes) in C:\wamp64\www\edms\EDMS-Core\vendor\symfony\http-foundation\Response.php:361
+Stack trace:
+#0 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(137): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 C:\wamp64\www\edms\EDMS-Core\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 C:\wamp64\www\edms\EDMS-Core\vendor\symfony\http-foundation\Response.php(374): Illuminate\Http\Response->sendContent()
+#4 C:\wamp64\www\edms\index.php(55): Illuminate\Http\Response->send()
+#5 C:\wamp64\www\edms\index.php(0): {main}()
+#6 {main}  

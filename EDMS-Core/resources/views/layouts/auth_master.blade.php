@@ -149,13 +149,13 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"> {{App\Global_var::getLangString('Language', $language_strings)}} <b class="caret"></b></a>
             <ul class="dropdown-menu nav-menu-dropdown">
                 <li>
-                    <a class="get_"  href="{{route('language_strings.changeLanguage', 'tig')}}"> {{App\Global_var::getLangString('Tigrigna', $language_strings)}} <i class="fa {{\Session::get('selectedLang')=='tig'? 'fa-check':''}}"></i></a>
+                    <a class="get_"  href="{{route('language_strings.changeLanguage', 'eng')}}"> {{App\Global_var::getLangString('English', $language_strings)}} <i class="fa {{\Session::get('selectedLang')=='eng'? 'fa-check':''}}"></i></a>
                 </li>
                 <li>
                     <a class="get_"  href="{{route('language_strings.changeLanguage', 'amh')}}"> {{App\Global_var::getLangString('Amharic', $language_strings)}} <i class="fa {{\Session::get('selectedLang')=='amh'? 'fa-check':''}}"></i> </a>
                 </li>
                 <li>
-                    <a class="get_"  href="{{route('language_strings.changeLanguage', 'eng')}}"> {{App\Global_var::getLangString('English', $language_strings)}} <i class="fa {{\Session::get('selectedLang')=='eng'? 'fa-check':''}}"></i></a>
+                    <a class="get_"  href="{{route('language_strings.changeLanguage', 'tig')}}"> {{App\Global_var::getLangString('Tigrigna', $language_strings)}} <i class="fa {{\Session::get('selectedLang')=='tig'? 'fa-check':''}}"></i></a>
                 </li>
                    
                 </ul>
